@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+body {
+    /* background-color: #FFDDD6; */
+    background-image: url('background.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hehe {
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-text {
+    margin-bottom: 25%;
+}
+
+.letter {
+    padding: 15%;
+    text-align: justify;
+}
+
+.heart-symbol {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 1em;
+}
+
+.letter-header {
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.letter-content {
+    text-indent: 3em;
+}
+
+.letter-footer {
+    margin-top: 2em;
+    text-align: right;
+}
